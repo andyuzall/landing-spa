@@ -12,6 +12,8 @@
     color: black;
     font-size: 1.2rem;
     cursor: pointer;
+    background: transparent;
+    border-radius: 12px;
 }
 
 .nav-container > button:hover{
@@ -25,7 +27,7 @@
     align-items: center;
     border: 1px solid gray;
     border-radius: 12px;
-    height: 50vh;
+    height: 30vh;
     margin: 5px;
 }
 

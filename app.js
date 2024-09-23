@@ -15,10 +15,9 @@ function agregarTexto(event, index) {
     let contenedorTexto = document.getElementById('contenedor-texto')
     let botonPulsado = event.target;
     let valorBoton = event.target.value;
-    let texto = 'clickeado'
-    let texto2 = 'Segundo boton clickeado'
-    let texto3 = 'Tercer boton clickeado'
-    console.log(valorBoton)
+    let texto = '<h2>Seccion de inicio</h2><p>Bienvenido a nuestra sección de Inicio</p>'
+    let texto2 = '<h2>Seccion de Servicios</h2><p>Bienvenido a nuestra sección de servicios</p>'
+    let texto3 = '<h2>Seccion de Contacto</h2><p>Bienvenido a nuestra sección de Contacto</p>'
     
     if (botonPulsado && valorBoton==='Inicio') {
         contenedorTexto.innerHTML = texto;
@@ -29,7 +28,4 @@ function agregarTexto(event, index) {
     if(botonPulsado && valorBoton === 'Contacto'){
         contenedorTexto.innerHTML = texto3;
     }
-
-
-
 }
